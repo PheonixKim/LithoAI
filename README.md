@@ -4,8 +4,7 @@
 
  - RnadomForest
  - SVM
-
-<span style="color:red">-XGBoost</span>
+ - XGBoost
 
 분류모델을 사용하다가 예측모델로 사용하기 위해 Regressor를 사용으로 변경
 
