@@ -1,0 +1,35 @@
+콘다에서 git 설치 
+conda install git
+
+git 버전확인
+git --version
+
+git 상태확인 (무엇이 변화했는지 확인가능 자주쓰임)
+git status
+
+어떤 github를 복사하여서 사용하고 싶을떄 (push나 pull이 제한적임)
+git clone <url>
+
+어떤 github를 복사해서 내 저장소로 만들고 싶을때
+
+git fork <url>
+
+어떤 변화가 있을떄 add를 먼저해주고
+git add <file>
+
+변경된 사항을 확정해주고 그에대해서 코멘트를 적는다.
+git commit -m "message"
+
+원격저장소 즉 github에 변경사항을 반영한다.
+git push
+ID
+PASSWORD
+
+conda install git-lft
+
+-----------------------------------------------------------
+원격 저장소에서 최신화시키기
+git fetch
+
+로컬 저장소로 데이터 업데이트하기
+git pull
