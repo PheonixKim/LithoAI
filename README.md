@@ -5,7 +5,7 @@
  - RnadomForest
  - SVM
  - XGBoost
-
+ 
 분류모델을 사용하다가 예측모델로 사용하기 위해 Regressor를 사용으로 변경
 
 현재 소목표: n, k, d 값을 입력해서 반사율을 예측하는 모델
